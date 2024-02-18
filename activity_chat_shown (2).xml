@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chat_shown"
+
+    >
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_4sdp"
+        android:id="@+id/chat_profile"
+        android:background="@android:color/holo_blue_dark"
+
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/founder_profile_image"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/profile"
+            android:layout_gravity="left"
+
+            app:civ_border_width="2dp"
+            android:layout_marginStart="23sp"
+            app:civ_border_color="#FF000000"
+
+            />
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver Name"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold|normal"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+
+            />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@android:color/holo_green_dark"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+
+                />
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+
+
+        android:layout_width="match_parent"
+        android:background="#F8F5F5"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_recycler_view"
+        android:layout_below="@+id/chat_profile"
+        android:layout_above="@id/chat_below"
+
+
+
+        />
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/chat_below"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/_4sdp"
+
+
+        >
+
+        <EditText
+
+
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:id="@+id/massage_send_text"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+
+
+
+            />
+
+        <ImageView
+
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/massage_send_btn"
+            android:id="@+id/massage_send_btn"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
