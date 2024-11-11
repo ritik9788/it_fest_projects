@@ -1,6 +1,6 @@
-I am pleased to share that the "VentureVista" project was conceived and developed as a part of our participation in the IT fest. It was created with the aim of connecting entrepreneurs with investors, providing a platform for sharing innovative ideas and facilitating investment opportunities. The project was presented at the fest as a demonstration of our commitment to fostering entrepreneurship and innovation within our community.
+I am pleased to share that the "EntrePre App" project was conceived and developed as a part of our participation in the IT fest. It was created with the aim of connecting entrepreneurs with investors, providing a platform for sharing innovative ideas and facilitating investment opportunities. The project was presented at the fest as a demonstration of our commitment to fostering entrepreneurship and innovation within our community.
 
-VentureVista is a platform designed to connect entrepreneurs with investors. Our goal is to provide a space where entrepreneurs can share their ideas and find potential investors, while investors can discover exciting new opportunities to invest in.
+EntrePre is a platform designed to connect entrepreneurs with investors. Our goal is to provide a space where entrepreneurs can share their ideas and find potential investors, while investors can discover exciting new opportunities to invest in.
 
 How It Works
 
